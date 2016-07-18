@@ -6,11 +6,10 @@ Rails.application.initialize!
 
 
 ActionMailer::Base.smtp_settings = {
-  :user_name => 'rjadav101@gmail.com',
-  :password => '111abcd111',
-  :domain => 'sensationnel-croissant-56079.herokuapp.com',
-  :address => 'smtp.gmail.com',
-  :port => 587,
+  :port           => 587,
+  :address        => smtp.mailgun.org,
+  :user_name      => postmaster@sensationnel-croissant-56079.herokuapp.com,
+  :password       => 87f2a340a9f6e24d82601b64b3d3f545,
+  :domain         => 'sensationnel-croissant-56079.herokuapp.com',
   :authentication => :plain,
-  :enable_starttls_auto => true
 }
