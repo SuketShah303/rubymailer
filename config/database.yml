@@ -13,11 +13,11 @@ default: &default
 development:
   adapter: postgresql
   encoding: unicode
-  database: d8dk0ftq5p26gg
+  database: d41epv0e3bk5pf
   pool: 5
-  host: ec2-54-243-201-107.compute-1.amazonaws.com
-  username: zrjifzrzemocgk
-  password: 5W5D0Jx9Hbk9FFQyGecoaTXVqE
+  host: ec2-54-243-203-85.compute-1.amazonaws.com
+  username: qsunehsuecoiia
+  password: Cq0jZ3x0oaypmjSD0JNoTv9xxX
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
